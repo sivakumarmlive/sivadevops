@@ -1,0 +1,1 @@
+call "C:\Program Files (x86)\MSBuild\14.0\bin\msbuild.exe" "C:\SandWebApp\SandApp.sln" /t:"Build" /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:PackageLocation="C:\BuildArtifact" /p:platform="any cpu" /p:configuration="release" /p:VisualStudioVersion="14.0"
